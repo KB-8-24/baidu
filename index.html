@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        .left {
+            float: left;
+        }
+        .left a {
+            margin-right: 31px;
+            font-size: 13px;
+            color: black;
+        }
+        .right {
+            float: right;
+            font-size: 13px;
+            color: black;
+
+        }
+        header {
+            padding: 19px 31px 0 31px;
+            overflow: hidden;
+        }
+        img {
+            display: block;
+            width: 270px;
+            height: 129px;
+            margin: auto;
+        }
+        form {
+            text-align: center;
+        }
+        form input[type = "text"] {
+            box-sizing: border-box;
+            width: 548px;
+            height: 44px;
+            font-size: 16px;
+            padding: 12px 16px;
+            border: 2px solid #c4c7ce;
+            border-radius: 10px 0 0 10px;
+            border-right-color: #4e6ef2;
+
+        }
+        .btn {
+            display: block;
+            outline: 0;
+            border: 0;
+            box-sizing: border-box;
+            width: 108px;
+            height: 44px;
+            background-color: #4e6ef2;
+            color:#fff;
+            font-size: 17px;
+            border-color: #4e6ef2;
+            border-radius: 0 10px 10px 0;
+            text-align: center;
+            line-height: 44px;
+        }
+        .btn:hover {
+            background-color: #4662D9;
+            color: #fff;
+        }
+        input {
+            float: left;
+            outline: 0;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100vw;
+            text-align: center;
+        }
+        footer a {
+            padding: 3px;
+            font-size: 13px;
+            color: black;
+
+        }
+        .logo {
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        a:hover {
+            color: #315efb;
+        }
+        span {
+            padding-right: 5px;
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            
+        }
+        .sou {
+            position: relative;
+        }
+        .mode {
+            display: none;
+            position: absolute;
+            box-sizing: border-box;
+            width: 548px;
+            left: 0;
+            top: 44px;
+            border: 2px solid #4662D9;
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+            padding-bottom: 20px;
+        }
+        ul li{
+            list-style: none;
+            text-align: left;
+            margin-left: 15px;
+            padding: 2px 0;
+        }
+        ul li a {
+            color: #000;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="left">
+            <a href="">新闻</a>
+            <a href="">hao123</a>
+            <a href="">地图</a>
+            <a href="">直播</a>
+            <a href="">视频</a>
+            <a href="">贴吧</a>
+            <a href="">学术</a>
+            <a href="">更多</a>
+        </div>
+        <div class="right">
+            <span>合肥 10℃</span>
+            <span>设置</span>
+            <span>admin</span>
+        </div>
+    </header>
+
+    <!-- 搜索框 -->
+    <main>
+        <div class="logo">
+            <img src="https://www.baidu.com/img/PCpad_012830ebaa7e4379ce9a9ed1b71f7507.png" alt="">
+        </div>
+        <div>
+            <form action="" method="post">
+                <div class="sou">
+                    <input type="text" id="sou">
+                    <div class="mode">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+                <button href="#" class="btn" target="_blank">百度一下</button>
+            </form>
+    
+        </div>
+    </main>
+    <footer>
+        <div class="link">
+            <a href="">设为首页</a>
+            <a href="">关于百度</a>
+            <a href="">About Baidu</a>
+            <a href="">百度营销</a>
+            <a href="">使用百度前必读</a>
+            <a href="">意见反馈</a>
+            <a href="">帮助中心</a>
+            <a href="">京公网安备11000002000001号</a>
+            <a href="">京ICP证030173号</a>
+        </div>
+    </footer>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
